@@ -2,37 +2,67 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ゆら のサイト</title>
+    <title>ゆらのポートフォリオ</title>
   </head>
+
   <body>
-    <header>
-      <h1>ゆら</h1>
-      <nav>
-        <a href="/">Home</a>
+    <header class="site-header">
+      <h1 class="site-title">Yura's Portfolio</h1>
+
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="works.html">Works</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h2>About</h2>
-        <p>
-          京都精華大学 メディア表現学部 メディアイノベーション専攻に所属しています。
+      <section class="hero">
+        <p class="hero-subtitle">Welcome to my portfolio</p>
+
+        <h2 class="hero-title">
+          ゆらのポートフォリオ
+        </h2>
+
+        <p class="hero-text">
+          Web制作やプログラミングを学んでいます。
         </p>
-        <p>現在、[学んでいること] を学んでいます。</p>
+
+        <a class="works-button" href="works.html">
+          作品を見る
+        </a>
       </section>
 
-      <section>
-        <h2>Contact</h2>
-        <p>
-          連絡先や SNS のリンクをここに書く（任意）。
-        </p>
+      <section class="about">
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-card">
+          <p>
+            京都精華大学 メディア表現学部
+            メディア情報専攻に所属しています。
+          </p>
+
+          <p>
+            HTML、CSS、JavaScript、Python、Flaskなどを学んでいます。
+          </p>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Flask</span>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>© ゆら</p>
+      <p>© 2026 Yura</p>
     </footer>
 
     <script type="module" src="/src/main.js"></script>
